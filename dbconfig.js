@@ -6,12 +6,13 @@ var con = mysql.createConnection({
     user: "sql6410969",
     password: "ZKzTgRv1Hj",
     database: 'sql6410969'
+
   
   });
   
 module.exports = con;
 
-//   con.connect(function(err) {
-//     if (err) throw err;
-//     console.log("Connected!");
-//   });
+// host: "localhost",
+//     user: "root",
+//     password: "12345",
+//     database: 'machineapp'

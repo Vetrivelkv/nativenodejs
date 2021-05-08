@@ -54,6 +54,5 @@ require('./Admin/route/machineRoute')(app);
 
 let port=process.env.PORT || '5000'
 app.listen(port, ()=>{    
-console.log('running')
- 
+console.log('running') 
 })
